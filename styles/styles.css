@@ -1,0 +1,246 @@
+*{
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+   
+   }
+   /* banner section  */
+   .nav1{
+    display: flex;
+    align-items: center;
+    background: white;
+   }
+   .resumeButton{
+    border: 1px solid gray;
+    padding:4px 12px;
+    border-radius: 4px;
+   }
+   .main1{
+    background-image: url('./assets/Hero-bg.png');
+    padding: 10px; 
+    margin-bottom: 12px;
+    height: 566px;
+   }
+   .imgG1{
+    position: relative;
+   }
+   .imgG{
+    position: absolute;
+   left: 35%;
+   top: 70px;
+   display: flex;
+   flex-direction: column;
+   }
+   .heading1{
+    font-size: 52px;
+   }
+   text1{
+    position: relative;
+   }
+   .parentH{
+    position: absolute;
+    top: 280px;
+    left: 20%;
+   padding: 12px;
+   }
+   .buttonContact{
+    padding: 9px 20px;
+   margin-left: 35%;
+    border: 1px solid;
+    color: white;
+    background: black;
+   }
+   .videoClip iframe{
+    display: flex;
+    width: 60%;
+   height: 400px;
+   }
+   .paragrap{
+    padding-bottom: 6px;
+   }
+   /* banner section end */
+   
+   /* why web development section start */
+   .mainSection{
+    margin-left: auto;
+    margin-left: auto;
+   }
+   .development{
+    margin: 36px;
+   padding: 24px 0 24px 0;
+    background: #d4d4d8;
+   }
+   .webDevelopmentHeading{
+   align-items: center;
+   text-align: center;
+   }
+   .webDevelopmentHeading h1{
+     font-size: 42px;
+   }
+   .webDevelopmentHeading p{
+   padding-bottom: 12px;
+   padding: 0 400px 0 400px ;
+   }
+   .parent1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   }
+   
+   .child1{
+    background: #fff;
+    padding: 16px;
+     display: flex;
+    align-items: center;
+    gap: 120px;
+    justify-content: space-between;
+    padding: 12px 0 8 0 ;
+   }
+   .child1 div h1 {
+   font-size: 32px;
+   font-weight: 700;
+   }
+   .child1 div button{
+    padding: 8px 12px;
+   }
+   /* child2 */
+   .child2{
+     background: #fff;
+    padding: 16px;
+     display: flex;
+     flex-direction: row-reverse;
+     gap: 120px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0 8 0 ;
+   }
+   .child2 div button{
+    padding: 8px 12px;
+   }
+   .child2 div h1 {
+   font-size: 32px;
+   font-weight: 700;
+   }
+   /* child3 */
+   .child3{
+     background: #fff;
+    padding: 16px;
+     display: flex;
+    align-items: center;
+    gap: 120px;
+    justify-content: space-between;
+    padding: 12px 0 8 0 ;
+    margin-bottom: 16px;
+   }
+   .child3 div h1 {
+   font-size: 32px;
+   font-weight: 700;
+   }
+   
+   /* end web development section */
+   .global{
+    align-items: center;
+    text-align: center;
+   }
+   .global p{
+     font-size: 20px;
+   }
+   .devmode{
+     font-size: 42px;
+   }
+   
+   /* start current target  */
+   .reactjs{
+   display: flex;
+   padding: 14px;
+   gap: 12px;
+   }
+   .reactjsC{
+     height: 300px;
+     padding: 40px;
+     border: 1px solid #9ca3af;
+     background-color: #fecaca;
+     border-radius: 12px;
+   }
+   .icon{
+     width: 24%;
+   }
+   .paragrapTarget{
+     padding-left: 300px;
+     padding-right: 300px;
+   }
+   .targetH1{
+   font-size: 42px;
+   }
+   
+   .reactjsF{
+     display: flex;
+     align-items: center;
+     gap: 42px;
+     border: 1px solid palevioletred;
+     padding: 16px;
+     border-radius: 10px;
+   }
+   .nextTarget3{
+     display: flex;
+     flex-direction: column;
+     gap: 42px;
+     padding: 16px ;
+   }
+   .handleShakePhoto{
+     height: 350px;
+     border-radius: 30px;
+     width: 100%;
+     padding: 12px 0 12px 0;
+   }
+   .support div{
+     margin: 14px;
+   }
+   .childOfSupport{
+     position: relative;
+   }
+   .inputtype{
+     padding: 15px;
+     margin: 0 0 12px 0;
+     outline: none;
+   }
+   .buttonS{
+     padding: 15px 30px 15px 30px;
+   }
+   
+   .headingOfSupport{
+     position: absolute;
+     top: 5px;
+     color: white;
+     left: 25%;
+   }
+   
+   .inputField{
+     width: 500px;
+   }
+   
+   .socialLinks{
+     display: flex;
+   gap: 12px;
+   
+   }
+   footer{
+     display: flex;
+     justify-content: space-around;
+     margin-top: 12px;
+     align-items: center;
+   
+   }
+   .headingOfSupport{
+     /* display: flex; */
+     /* flex-direction: column; */
+     gap: 16px;
+   }
+   .SupportHeading{
+   font-size: 49px;
+   /* color: gray; */
+   
+   }
+   .CssOfColor{
+     background-color: #a3a3a3;
+   }
