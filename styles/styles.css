@@ -154,14 +154,17 @@
    display: flex;
    padding: 14px;
    gap: 12px;
+   
    }
    .reactjsC{
      height: 300px;
      padding: 40px;
      border: 1px solid #9ca3af;
-     background-color: #b1ad9e;
+     background-color: #d3c696;
      border-radius: 12px;
    }
+ 
+   
    .icon{
      width: 24%;
    }
